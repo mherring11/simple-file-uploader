@@ -33,7 +33,7 @@ body {
     background-repeat: no-repeat;
     max-height: 100%;
     background-position-y: 20px;
-    background-size: 99%;
+    background-size: 97%;
 
 }
 
@@ -47,7 +47,7 @@ body {
 .container form {
     border: 3px dashed #5f87ea;
     height: 170px;
-    margin:20px 0;
+    margin:30px 0;
     display: flex;
     align-items: center;
     justify-content: center;
