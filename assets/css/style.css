@@ -1,16 +1,162 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 
 * {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
 }
 
 body {
-  font-family: "Roboto", sans-serif;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100vh;
-  overflow: hidden;
-  margin: 0;
+  min-height: 100vh;
+  background: #5f87ea;
+  
+}
+
+.upload-text {
+    color: #5f87ea;
+    font-size: 22px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.container {
+    background: #fff;
+    padding: 60px;
+    width: 650px;
+    border-radius: 15px;
+    background-image: url(/assets/images/imageedit_2_3187878621.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    max-height: 100%;
+    background-position-y: 20px;
+    background-size: 99%;
+
+}
+
+.container header {
+    color: #5f87ea;
+    font-size: 15px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.container form {
+    border: 3px dashed #5f87ea;
+    height: 170px;
+    margin:20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 5px;
+    background-color: #faf4f4;
+}
+
+.container form .button {
+  background-color: #4863a0;
+  color: #fff;
+  padding: 6px 23px;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0px 8px 15px rgba(8, 67, 176, 0.4);
+  border: none;
+  font-size: 14px;
+}
+
+form :where(i,p) {
+    color: #5f87ea;
+}
+
+form i {
+    font-size: 45px;
+    opacity: 0.5;
+}
+
+form p {
+    font-size: 15px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+section .row {
+    background: #fff;
+    margin-bottom: 10px;
+    list-style: none;
+    padding: 15px 20px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 8px 15px rgba(8, 67, 176, 0.4);
+}
+
+section .row i {
+    font-size: 30px;
+    color: #5f87ea;
+}
+
+
+section .details span {
+    font-size: 14px;
+}
+
+.progress-area .row .content {
+    width: 100%;
+    margin-left: 15px;
+}
+
+.progress-area .details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 7px;
+}
+
+.progress-area .progress-bar {
+    height: 6px;
+    width: 100%;
+    background: #d7d5d5;
+    border-radius: 15px;
+    margin-bottom: 4px;
+}
+
+.progress-bar .progress{
+    height: 100%;
+    width: 50%;
+    background: #8382ee;
+    border-radius: inherit;
+}
+
+.upload-area::-webkit-scrollbar {
+    width: 0px;
+}
+
+.upload-area {
+    max-height: 175px;
+    overflow-y: scroll;
+}
+
+.upload-area .row .content {
+    display: flex;
+    align-items: center;
+}
+
+.upload-area .row .details {
+    display: flex;
+    margin-left: 15px;
+    flex-direction: column;
+}
+
+.upload-area .details .size {
+    font-size: 11px;
+    color: #5f87ea;
+}
+
+.upload-area .fa-check {
+    color: #5f87ea;
+    font-size: 16px;
 }

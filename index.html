@@ -4,13 +4,92 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <!-- <link rel="stylesheet" href="assets/css/debug.css" /> -->
     <link rel="stylesheet" href="./assets/css/style.css" />
-    <title>My Project</title>
+    <title>Simple File Uploader</title>
   </head>
   <body>
-    <h1>Project Starter</h1>
+    <!--------------------------------------Container-------------------------->
+    <div class="container">
+      <div class="upload-text">Upload Files</div>
+      <header>
+        Upload documents you want to share
+        <br />
+        with the team.
+      </header>
+      <form action="#">
+        <input type="file" class="file-input" hidden />
+        <i class="fas fa-cloud-upload-alt"></i>
+        <p>
+          Drag & Drop your files here <br />
+          OR
+        </p>
+        <button class="button">Browse Files</button>
+      </form>
+      <section class="progress-area">
+        <li class="row">
+          <i class="fas fa-file-alt"></i>
+          <div class="content">
+            <div class="details">
+              <span class="name">image_01.png &#0149; Uploading</span>
+              <span class="percent">50%</span>
+            </div>
+            <div class="progress-bar">
+              <div class="progress"></div>
+            </div>
+          </div>
+        </li>
+      </section>
+      <section class="upload-area">
+        <li class="row">
+          <div class="content">
+            <i class="fas fa-file-alt"></i>
+            <div class="details">
+              <span class="name">image_01.png &#0149; Uploaded</span>
+              <span class="size">70 KB</span>
+            </div>
+          </div>
+          <i class="fas fa-check"></i>
+        </li>
+        <li class="row">
+          <div class="content">
+            <i class="fas fa-file-alt"></i>
+            <div class="details">
+              <span class="name">image_01.png &#0149; Uploaded</span>
+              <span class="size">70 KB</span>
+            </div>
+          </div>
+          <i class="fas fa-check"></i>
+        </li>
+        <li class="row">
+          <div class="content">
+            <i class="fas fa-file-alt"></i>
+            <div class="details">
+              <span class="name">image_01.png &#0149; Uploaded</span>
+              <span class="size">70 KB</span>
+            </div>
+          </div>
+          <i class="fas fa-check"></i>
+        </li>
+        <li class="row">
+          <div class="content">
+            <i class="fas fa-file-alt"></i>
+            <div class="details">
+              <span class="name">image_01.png &#0149; Uploaded</span>
+              <span class="size">70 KB</span>
+            </div>
+          </div>
+          <i class="fas fa-check"></i>
+        </li>
+      </section>
+    </div>
 
     <script src="./assets/js/main.js"></script>
   </body>
