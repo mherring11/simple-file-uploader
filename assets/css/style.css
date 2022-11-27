@@ -126,7 +126,7 @@ section .details span {
 
 .progress-bar .progress{
     height: 100%;
-    width: 50%;
+    width: 0%;
     background: #8382ee;
     border-radius: inherit;
 }
