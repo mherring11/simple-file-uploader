@@ -7,7 +7,7 @@ This simple HTML file-uploader make uploading files easy. Single file upload wit
 
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://user-images.githubusercontent.com/27812373/204785170-e0c1a7b6-3376-4819-b0e9-c3472c5c81be.png)
 
 
 ## Installation
