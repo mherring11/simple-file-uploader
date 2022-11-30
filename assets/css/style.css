@@ -63,6 +63,7 @@ body {
   box-shadow: 0px 8px 15px rgba(8, 67, 176, 0.4);
   border: none;
   font-size: 14px;
+  pointer-events: none;
 }
 
 form :where(i, p) {
@@ -157,3 +158,12 @@ section .details span {
   color: #5f87ea;
   font-size: 16px;
 }
+
+@media only screen and (min-width: 280px) and (max-width: 480px) {
+  .container {
+   align-items: center;
+   justify-content: center;
+   max-width: max-content;
+    }
+  }
+ 
