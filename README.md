@@ -13,11 +13,9 @@ This simple HTML file-uploader make uploading files easy. Single file upload wit
 
 ## Installation
 
-Install my-project with npm
+Clone repo
 
-```bash
-  npm install my-project
-  cd my-project
+```git@github.com:mherring11/simple-file-uploader.git
 ```
     
 ## Tech Stack
