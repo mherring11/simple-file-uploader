@@ -15,7 +15,7 @@ This simple HTML file-uploader make uploading files easy. Single file upload wit
 
 Clone repo
 
-git@github.com:mherring11/simple-file-uploader.git
+[git@github.com:mherring11/simple-file-uploader.git]
     
 ## Tech Stack
 
